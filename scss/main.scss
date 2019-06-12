@@ -1,4 +1,5 @@
-@import 'config'
+@import 'config';
+@import 'menu';
 * {
   box-sizing: border-box;
   padding: 0;
@@ -33,7 +34,7 @@ a {
 header {
   position: fixed;
   z-index: 2;
-  widows: 100%;
+  width: 100%;
 }
 .text-secondary {
   color: $secondary-color;
